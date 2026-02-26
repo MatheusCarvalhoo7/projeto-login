@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <title>Perguntas Frequentes</title>
+</head>
+
+<body class="bg-light">
+
+<div class="container py-5">
+
+  <h1 class="text-center mb-4">Perguntas Frequentes</h1>
+
+  <div class="accordion" id="faqAccordion">
+
+    <!-- Pergunta 1 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+          data-bs-target="#collapseOne" aria-expanded="true">
+          Como redefinir minha senha?
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show"
+        data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          Clique em "Esqueci minha senha" na tela de login e siga as instruções enviadas ao seu e-mail.
+        </div>
+      </div>
+    </div>
+
+    <!-- Pergunta 2 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button"
+          data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+          Não recebi o e-mail de confirmação. O que fazer?
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse"
+        data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          Verifique sua caixa de spam ou solicite o reenvio do e-mail.
+        </div>
+      </div>
+    </div>
+
+    <!-- Pergunta 3 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button"
+          data-bs-toggle="collapse" data-bs-target="#collapseThree">
+          Como atualizar meus dados cadastrais?
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse"
+        data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          Após realizar o login, acesse o menu "Meu Perfil" e clique em "Editar Informações".
+        </div>
+      </div>
+    </div>
+
+    <!-- Pergunta 4 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingFour">
+        <button class="accordion-button collapsed" type="button"
+          data-bs-toggle="collapse" data-bs-target="#collapseFour">
+          O sistema está lento. O que pode ser?
+        </button>
+      </h2>
+      <div id="collapseFour" class="accordion-collapse collapse"
+        data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          Pode ser instabilidade temporária ou conexão lenta. Tente atualizar a página ou verificar sua internet.
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="text-center mt-4">
+    <a href="index.html" class="btn btn-secondary">
+      Voltar para Login
+    </a>
+  </div>
+
+</div>
+
+<!-- Script do Bootstrap (necessário para o accordion funcionar) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
